@@ -111,7 +111,7 @@ class Application(tk.Frame):
     
     def choice_picture(self):
         #Please Input your Pictures Directory
-        picture = [r.split('/')[-1] for r in glob.glob(r'C:\Users\yamab\OneDrive\デスクトップ\pictures\*png')]
+        picture = [r.split('/')[-1] for r in glob.glob(r'your_path\*png')]
 
         self.set_picture = random.choice(picture)
 
